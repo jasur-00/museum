@@ -1,0 +1,186 @@
+.intro {
+  background-color: #ffffff;
+}
+
+.intro__box {
+  padding-top: 75px;
+}
+
+.intro__title {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9D8665;
+}
+
+.intro__line {
+  height: 3px;
+  background-color: #710707;
+}
+
+.intro__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.inrto__items {
+  list-style-type: none;
+  margin-top: 75px;
+}
+
+.intro__pic {
+  width: 440px;
+  height: 285px;
+}
+
+.intro__heading {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.intro__line-mini {
+  width: 300px;
+  height: 2px;
+  background-color:  #710707;
+  margin: 0;
+}
+
+.intro__paragraph {
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.intro__text {
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+@include breakpoint-down (1000px) {
+  .intro__title {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+  }
+
+  .intro__pic {
+    width: 330px;
+    height: 215px;
+  }
+
+  .intro__heading {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+    letter-spacing: 3px;
+  }
+
+  .intro__line-mini {
+    width: 150px;
+  }
+
+  .intro__paragraph {
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .intro__text {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+@include breakpoint-down (760px) {
+  .intro__title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+  }
+
+  .intro__pic {
+    width: 280px;
+    height: 180px;
+  }
+
+  .intro__heading {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 3px;
+  }
+
+  .intro__line-mini {
+    width: 150px;
+  }
+
+  .intro__paragraph {
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .intro__text {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+@include breakpoint-down (400px) {
+  // .inrto__items {
+  //   margin-right: 40px;
+  // }
+
+  .intro__title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px
+    letter-spacing 5px;
+  }
+
+  .intro__pic {
+    width: 240px;
+    height: 160px;
+  }
+
+  .intro__heading {
+    width: 230px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 3px;
+  }
+
+  .intro__line-mini {
+    width: 150px;
+  }
+
+  .intro__paragraph {
+    width: 230px;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .intro__text {
+    width: 230px;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
