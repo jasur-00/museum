@@ -1,0 +1,32 @@
+.museum__pic {
+  width: 1440px;
+  height: 400px;
+}
+
+@include breakpoint-down (1456px) {
+  .museum__pic {
+    width: 1000px;
+    height: 400px;
+  }
+}
+
+@include breakpoint-down (1025px) {
+  .museum__pic {
+    width: 768px;
+    height: 300px;
+  }
+}
+
+@include breakpoint-down (790px) {
+  .museum__pic {
+    width: 420px;
+    height: 300px;
+  }
+}
+
+@include breakpoint-down (445px) {
+  .museum__pic {
+    width: 290px;
+    height: 180px;
+  }
+}

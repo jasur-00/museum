@@ -1,0 +1,139 @@
+.contact {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #fff;
+}
+
+.contact__title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase; 
+  color: #9D8665;
+}
+
+.contact__line {
+  max-width: 1440px;
+  height: 3px;
+  background-color: #710707;
+  margin: 0;
+}
+
+.contact__box-mini {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 75px;
+}
+
+.contact__list {
+  list-style-type: none;
+}
+
+.contact__list-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  width: 227px;
+}
+
+.contact__text {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.contact__pic {
+  width: 960px;
+  height: 620px;
+}
+
+@include breakpoint-down (1350px) {
+  .contact__title {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    width: 261;
+  }
+
+  .contact__list-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .contact__text {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .contact__pic {
+    width: 694px;
+    height: 454px;
+  }
+}
+
+@include breakpoint-down (1050px) {
+  .contact__title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .contact__box-mini {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact__list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .contact__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .contact__pic {
+    width: 720px;
+    height: 470px;
+  }
+}
+
+@include breakpoint-down (735px) {
+  .contact__title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .contact__list-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .contact__text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .contact__pic {
+    width: 380px;
+    height: 248px;
+  }
+}
+
+@include breakpoint-down (400px) {
+  .contact__pic {
+    width: 290px;
+    height: 218px;
+  }
+}
